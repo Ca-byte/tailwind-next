@@ -3,6 +3,7 @@ import {
   CheckSquare,
   Cog,
   Flag,
+  Home,
   LifeBuoy,
   Search,
   SquareStack,
@@ -10,7 +11,6 @@ import {
 } from 'lucide-react'
 import { Logo } from './Logo'
 import { NavItem } from './NavItem'
-import Home from '@/app/page'
 import { UserSpaceWidget } from './UserSpaceWidget'
 import { Profile } from './Profile'
 import * as Input from '../input'
@@ -19,6 +19,7 @@ export function Sidebar() {
   return (
     <aside className="flex flex-col gap-6 border-r border-zinc-200 px-5 py-8">
       <Logo />
+
       <Input.Root>
         <Input.Prefix>
           <Search className="h-5 w-5 to-zinc-500" />
