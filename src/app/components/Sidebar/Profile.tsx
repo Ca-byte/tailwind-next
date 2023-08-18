@@ -13,7 +13,7 @@ export function Profile() {
         <span className="text-sm font-semibold text-zinc-700">
           Caroline Vieira
         </span>
-        <span className=" truncate text-sm text-zinc-500">
+        <span className="truncate text-sm text-zinc-500">
           carolinesanvieiraaaaaaaaaaaaaaaaa@gmail.com
         </span>
       </div>
